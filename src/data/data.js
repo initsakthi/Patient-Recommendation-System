@@ -1,0 +1,58 @@
+export const input = [
+  {
+    id: 1,
+    name: "name",
+    label: "Full Name",
+    type: "text",
+    placeholder: "Enter patient's full name",
+  },
+  {
+    id: 2,
+    name: "email",
+    label: "Email",
+    type: "email",
+    placeholder: "Enter email",
+  },
+  {
+    id: 3,
+    name: "password",
+    label: "Password",
+    type: "password",
+    placeholder: "Create a password",
+  },
+  {
+    id: 4,
+    name: "dob",
+    label: "Date of Birth",
+    type: "date",
+    placeholder: "Enter date of birth",
+  },
+  {
+    id: 5,
+    name: "gender",
+    label: "Gender",
+    defaultvalue: "",
+    Servicename: ["Male", "Female", "Other"],
+  },
+  {
+    id: 6,
+    name: "contact",
+    label: "Contact_Number",
+    type: "text",
+    placeholder: "Enter contact number",
+  },
+  {
+    id: 7,
+    name: "address",
+    label: "Address",
+    type: "textarea",
+    placeholder: "Enter address",
+  },
+  {
+    id: 8,
+    name: "disease",
+    label: "Health Issue / Reason for Visit",
+    type: "text",
+    placeholder: "E.g., Fever, Diabetes, etc.",
+  },
+];
